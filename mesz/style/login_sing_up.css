@@ -1,0 +1,127 @@
+.checkbox {
+    display: inline-block;
+}
+.ca {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link.active {
+    color: white !important;
+    font-weight: bold;
+}
+body{
+    background: url("../images/Login.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 18px;
+    color:#000;
+}
+
+h2{
+    font-size:25px;
+    text-align: center;
+}
+
+h1{
+    font-size:35px;
+    text-align: center;
+}
+
+input{
+    width:95%;
+    border-radius: 5%;
+    margin:3%;
+    padding:1%;
+}
+
+select{
+    width:100%;
+    margin:3%;
+    padding:1%;
+}
+
+label{
+    padding-left:3%
+}
+
+button{
+    float:right;
+    padding:1%;
+    width:80px;
+    border-radius:10%;
+    background: #FFFFFF;
+}
+
+button:hover{
+    opacity: .7;
+}
+
+.error{
+    color:#820a0a;
+    background: #d82c2c73;
+    padding:1%;
+    border-radius: 5%;
+    width: 94%;
+    margin-left: 3%;
+}
+
+a.ca{
+    font-size: 14px;
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color:#444;
+}
+
+a.ca:hover{
+    text-decoration: underline;
+}
+.success{
+    color:#0a3911;
+    background: #1b5c1e73;
+    padding:1%;
+    border-radius: 5%;
+    width: 94%;
+    margin-left: 3%;
+}
+
+
+.form_login{
+    border-radius: 5%;
+    background-color: #80c8bc;
+    width:50%;
+    height: 90%;
+    padding:5%;
+    margin:5% auto;
+}
+
+.submit_2{
+    width:130px;
+}
+
+.ver{
+    width:0;
+}
+
+@media only screen and (max-width: 990px)  {
+    .logo{
+        width:38%;
+    }
+    .form_login{
+        width:70%;
+        margin-top: 10%;
+    }
+
+    .body{
+        height: 800px;
+    }
+}

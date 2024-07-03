@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #efd199;
+}
+
+.nav-link.active {
+    color: white;
+}
+
+.container {
+    overflow-x: auto; /* Enables horizontal scrolling if content overflows */
+    white-space: nowrap; /* Prevents table from breaking to a new line */
+}
+
+.table {
+    table-layout: auto; /* Adjusts the layout to fit the content */
+    width: 100%; /* Ensures the table takes the full width of the container */
+    border-collapse: collapse; /* Ensures borders collapse into single border */
+}
+
+.table th, .table td {
+    white-space: nowrap; /* Prevents text from wrapping */
+    border: 1px solid #ddd; /* Adds a border to table cells */
+    padding: 8px; /* Adds padding to table cells */
+}
+
+.table thead {
+    background-color: #80c8bc; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row background color */
+}
+
+.table tbody tr:hover {
+    background-color: #ddd; /* Row hover background color */
+}
